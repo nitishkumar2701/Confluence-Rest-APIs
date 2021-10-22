@@ -1,0 +1,20 @@
+Confluence Rest API Cheat Sheet
+
+API to get the page id's
+https://nitish-dev.atlassian.net/wiki/rest/api/content?type=page&start=0&limit=9999
+
+API to get all the versions of page history
+https://nitish-dev.atlassian.net/wiki/rest/api/content/262187/version?expand=content
+
+API to get content of a particular page with content ID 
+https://nitish-dev.atlassian.net/wiki/rest/api/content/262187?expand=space,body.view,version,container
+
+API to get list of all spaces
+https://nitish-dev.atlassian.net/wiki/rest/api/space
+
+API to get details about a specific space
+https://nitish-dev.atlassian.net/wiki/rest/api/space/Nitish/content/page?expand=history
+
+API to List all pages in a space showing titles of page and IDs
+https://nitish-dev.atlassian.net/wiki/rest/api/content?type=page&start=0&limit=99999
+
