@@ -1,0 +1,14 @@
+modules:
+  confluence:spacePage:
+    - key: statistics-space-page-hello-world
+      function: main
+      title: statistics
+      route: hello-world
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/57d31950-d4bd-453d-a2d8-c2f3b093c8aa
+permissions:
+  scopes:
+    - read:confluence-content.summary
