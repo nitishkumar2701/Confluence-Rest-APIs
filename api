@@ -18,3 +18,5 @@ https://nitish-dev.atlassian.net/wiki/rest/api/space/Nitish/content/page?expand=
 API to List all pages in a space showing titles of page and IDs
 https://nitish-dev.atlassian.net/wiki/rest/api/content?type=page&start=0&limit=99999
 
+Api to get details of the current user viewing the page 
+https://nitish-dev.atlassian.net/wiki/rest/api/user/current
