@@ -20,3 +20,6 @@ https://nitish-dev.atlassian.net/wiki/rest/api/content?type=page&start=0&limit=9
 
 Api to get details of the current user viewing the page 
 https://nitish-dev.atlassian.net/wiki/rest/api/user/current
+
+Api to get page version details with body
+https://nitish-dev.atlassian.net/wiki/rest/api/content?spaceKey=NITISH&title=Nizhanth&expand=space,body.view,version,container
